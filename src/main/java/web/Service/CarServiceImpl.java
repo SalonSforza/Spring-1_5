@@ -21,8 +21,8 @@ public class CarServiceImpl implements CarService {
 
     ;
 
-    public List<Car> getAnyAmountOfCars(Integer a) {
-        return carDao.getAnyAmountOfCars(a);
+    public List<Car> getCarsByCount(Integer a) {
+        return carDao.getCarsByCount(a);
     }
 
     ;
